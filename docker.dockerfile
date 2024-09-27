@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-alpine
 
 # Copiar el archivo JAR de tu aplicación al contenedor
-COPY target/crudUsers-0.0.1-SNAPSHOT.jar app.jar
+COPY crudUsers-0.0.1-SNAPSHOT.jar app.jar
 
 
 
